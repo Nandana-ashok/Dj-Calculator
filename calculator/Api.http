@@ -1,0 +1,122 @@
+# API call for addition
+
+###
+POST http://127.0.0.1:8000/addition/
+Content-Type: application/json
+
+{
+    "num1":10,
+    "num2":50
+}
+
+
+# API call for subtraction
+
+###
+POST http://127.0.0.1:8000/subtraction/
+Content-Type: application/json
+
+{
+    "num1":100,
+    "num2":60
+}
+
+# API call for multiplication
+
+###
+POST http://127.0.0.1:8000/multiplication/
+Content-Type: application/json
+
+{
+    "num1" :20,
+    "num2": 3
+}
+
+# API call for division
+
+###
+POST http://127.0.0.1:8000/division/
+Content-Type: application/json
+
+{
+    "num1" :30,
+    "num2": 3
+}
+
+# API call for Remainder
+
+###
+POST http://127.0.0.1:8000/remainder/
+Content-Type: application/json
+
+{
+    "num1" :10,
+    "num2": 3
+}
+
+# API call for Percentage 
+
+###
+Post http://127.0.0.1:8000/percentage/
+Content-Type: application/json
+
+{
+    "obtained_mark":400,
+    "total_mark":500
+}
+
+# API call to find BMI 
+
+###
+POST http://127.0.0.1:8000/bmi/
+Content-Type: application/json
+
+{
+    "weight":70,
+    "height":175
+}
+
+# API call to find Area of rectangle
+
+###
+POST http://127.0.0.1:8000/area/
+Content-Type: application/json
+
+{
+    "length":20,
+    "height":5
+}
+
+# API call to find Age
+
+###
+POST http://127.0.0.1:8000/age/
+Content-Type: application/json
+
+{
+    "birth-year":2004,
+    "current-year":2026
+}
+
+# API call to find Simple interest
+
+###
+POST http://127.0.0.1:8000/interest/
+Content-Type: application/json
+
+{
+    "principle":10000,
+    "rate":5,
+    "time":2
+}
+
+# API call to find Electricity bill
+
+###
+POST http://127.0.0.1:8000/electricity/
+Content-Type: application/json
+
+{
+    "unit":120,
+    "rate":3
+}
